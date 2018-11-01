@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         textView.setText("カウント：" + ct);
         pb = (ProgressBar)findViewById(R.id.progressBar);
         bt = (Button)findViewById(R.id.button2);
-        bt.setEnabled(false);
+        bt.setEnabled(true);
     }
 
     public void btnCountUP(View t) {
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void move(View t){
-        Intent intent = new Intent(MainActivity.this, SubActivity.class);
+        Intent intent = new Intent(MainActivity.this,AccessibillityVoiceService.class);
         startActivity(intent);
     }
 }

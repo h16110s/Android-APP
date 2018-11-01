@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Second Application</string>
+    <string name="accessibillity_description">マイクを使用します。</string>
 </resources>
